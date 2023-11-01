@@ -5,10 +5,7 @@ let numeroAlAzar =  Math.floor(Math.random() * 100 )+ 1 ,
     comprobando = document.getElementById('comporobar'),
     mensaje = document.getElementById('mensaje'),
     cantidadIntentos = document.getElementById('cantidadIntentos'),
-
     intentos=0
-    console.log(numeroAlAzar)
-
 comprobando.addEventListener('click', (e) => {
       e.preventDefault();
       intentos ++;
